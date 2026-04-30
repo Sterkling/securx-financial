@@ -23,8 +23,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Get client info
-    const ipAddress =
-      request.headers.get("x-forwarded-for") || request.ip || "unknown";
+    const ipAddress = request.headers.get("x-forwarded-for") || "unknown";
     const userAgent = request.headers.get("user-agent") || "unknown";
 
     // Save to database
