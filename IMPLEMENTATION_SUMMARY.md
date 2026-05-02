@@ -307,8 +307,8 @@ securx-financial/
 
 ## Notes
 
-- Color scheme currently using **Option C (Bold Financial)**: Black + Green + Gold
-  - Can be easily changed in `app/globals.css` if client prefers Option A or B
+- Color scheme currently using **Option C (Bold Financial)**: Black + Blue + Gold
+  - Updated from Green to Blue per client request
 - All pages have SEO metadata
 - All forms save to SQLite database
 - Admin dashboard is fully functional

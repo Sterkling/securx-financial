@@ -22,7 +22,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 focus:outline-none">
             <div className="flex flex-col leading-none">
-              <span className="text-green text-3xl sm:text-4xl lg:text-5xl font-heading tracking-tight">
+              <span className="text-blue text-3xl sm:text-4xl lg:text-5xl font-heading tracking-tight">
                 SECURX
               </span>
               <span className="text-white text-xs sm:text-sm font-heading tracking-wider">
@@ -37,7 +37,7 @@ export default function Navigation() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-white text-sm font-semibold hover:text-green transition-colors uppercase tracking-wide"
+                className="text-white text-sm font-semibold hover:text-blue transition-colors uppercase tracking-wide"
               >
                 {item.name}
               </Link>
@@ -55,7 +55,7 @@ export default function Navigation() {
             {/* CTA Button */}
             <Link
               href="/contact"
-              className="bg-green text-black px-6 py-3 rounded-lg font-bold uppercase text-sm hover:bg-gold hover:text-white transition-colors"
+              className="bg-blue text-black px-6 py-3 rounded-lg font-bold uppercase text-sm hover:bg-gold hover:text-white transition-colors"
             >
               GET A FREE ATM
             </Link>
@@ -98,7 +98,7 @@ export default function Navigation() {
 
             <Link
               href="/contact"
-              className="block mx-4 mt-4 text-center bg-green text-black px-6 py-4 rounded-lg font-bold uppercase text-base hover:bg-gold hover:text-white transition-colors"
+              className="block mx-4 mt-4 text-center bg-blue text-black px-6 py-4 rounded-lg font-bold uppercase text-base hover:bg-gold hover:text-white transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               GET A FREE ATM

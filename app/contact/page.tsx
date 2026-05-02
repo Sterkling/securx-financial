@@ -17,7 +17,7 @@ export default function ContactPage() {
         {/* Hero */}
         <section className="bg-black py-20 lg:py-28">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p className="text-green text-sm font-bold uppercase tracking-wider mb-4">
+            <p className="text-blue text-sm font-bold uppercase tracking-wider mb-4">
               Get In Touch
             </p>
             <h1 className="text-white font-heading text-5xl lg:text-6xl uppercase mb-6">
@@ -57,8 +57,8 @@ export default function ContactPage() {
                 <div className="mt-8 space-y-8">
                   {/* Phone */}
                   <div className="flex items-start space-x-4">
-                    <div className="bg-green/10 p-3 rounded-lg">
-                      <Phone className="text-green" size={24} />
+                    <div className="bg-blue/10 p-3 rounded-lg">
+                      <Phone className="text-blue" size={24} />
                     </div>
                     <div>
                       <h3 className="text-black font-semibold text-lg mb-2">
@@ -66,13 +66,13 @@ export default function ContactPage() {
                       </h3>
                       <a
                         href="tel:+15192819923"
-                        className="text-gray hover:text-green transition-colors block text-lg"
+                        className="text-gray hover:text-blue transition-colors block text-lg"
                       >
                         Demetri: 519-281-9923
                       </a>
                       <a
                         href="tel:+15195358309"
-                        className="text-gray hover:text-green transition-colors block text-lg"
+                        className="text-gray hover:text-blue transition-colors block text-lg"
                       >
                         Eleas: 519-535-8309
                       </a>
@@ -81,8 +81,8 @@ export default function ContactPage() {
 
                   {/* Email */}
                   <div className="flex items-start space-x-4">
-                    <div className="bg-green/10 p-3 rounded-lg">
-                      <Mail className="text-green" size={24} />
+                    <div className="bg-blue/10 p-3 rounded-lg">
+                      <Mail className="text-blue" size={24} />
                     </div>
                     <div>
                       <h3 className="text-black font-semibold text-lg mb-2">
@@ -90,7 +90,7 @@ export default function ContactPage() {
                       </h3>
                       <a
                         href="mailto:securxf@gmail.com"
-                        className="text-gray hover:text-green transition-colors text-lg"
+                        className="text-gray hover:text-blue transition-colors text-lg"
                       >
                         securxf@gmail.com
                       </a>
@@ -99,8 +99,8 @@ export default function ContactPage() {
 
                   {/* Location */}
                   <div className="flex items-start space-x-4">
-                    <div className="bg-green/10 p-3 rounded-lg">
-                      <MapPin className="text-green" size={24} />
+                    <div className="bg-blue/10 p-3 rounded-lg">
+                      <MapPin className="text-blue" size={24} />
                     </div>
                     <div>
                       <h3 className="text-black font-semibold text-lg mb-2">
@@ -115,8 +115,8 @@ export default function ContactPage() {
 
                   {/* Hours */}
                   <div className="flex items-start space-x-4">
-                    <div className="bg-green/10 p-3 rounded-lg">
-                      <Clock className="text-green" size={24} />
+                    <div className="bg-blue/10 p-3 rounded-lg">
+                      <Clock className="text-blue" size={24} />
                     </div>
                     <div>
                       <h3 className="text-black font-semibold text-lg mb-2">
@@ -169,7 +169,7 @@ export default function ContactPage() {
             <div className="mt-6">
               <a
                 href="/service-areas"
-                className="text-green hover:text-gold font-semibold transition-colors"
+                className="text-blue hover:text-gold font-semibold transition-colors"
               >
                 View All Service Areas →
               </a>

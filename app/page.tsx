@@ -76,7 +76,7 @@ export default function Home() {
             <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12">
               {/* Step 1 */}
               <div className="text-center">
-                <div className="bg-green text-black w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6">
+                <div className="bg-blue text-black w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6">
                   1
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-4">
@@ -89,7 +89,7 @@ export default function Home() {
 
               {/* Step 2 */}
               <div className="text-center">
-                <div className="bg-green text-black w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6">
+                <div className="bg-blue text-black w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6">
                   2
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-4">
@@ -102,7 +102,7 @@ export default function Home() {
 
               {/* Step 3 */}
               <div className="text-center">
-                <div className="bg-green text-black w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6">
+                <div className="bg-blue text-black w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6">
                   3
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-4">
@@ -128,7 +128,7 @@ export default function Home() {
             <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Testimonial 1 */}
               <div className="bg-light-bg p-8 rounded-lg">
-                <div className="text-green text-4xl mb-4">"</div>
+                <div className="text-blue text-4xl mb-4">"</div>
                 <p className="text-gray text-base mb-6">
                   The ATM has been a great addition to our bar. Customers love the convenience, and we earn extra income every month.
                 </p>
@@ -140,7 +140,7 @@ export default function Home() {
 
               {/* Testimonial 2 */}
               <div className="bg-light-bg p-8 rounded-lg">
-                <div className="text-green text-4xl mb-4">"</div>
+                <div className="text-blue text-4xl mb-4">"</div>
                 <p className="text-gray text-base mb-6">
                   Fast service, professional installation. The support team is always available when we need them.
                 </p>
@@ -152,7 +152,7 @@ export default function Home() {
 
               {/* Testimonial 3 */}
               <div className="bg-light-bg p-8 rounded-lg">
-                <div className="text-green text-4xl mb-4">"</div>
+                <div className="text-blue text-4xl mb-4">"</div>
                 <p className="text-gray text-base mb-6">
                   Zero upfront cost was the selling point for us. The machine pays for itself and then some.
                 </p>

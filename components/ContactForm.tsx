@@ -69,7 +69,7 @@ export default function ContactForm() {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green"
+          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue"
           required
         />
       </div>
@@ -85,7 +85,7 @@ export default function ContactForm() {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green"
+          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue"
           required
         />
       </div>
@@ -101,7 +101,7 @@ export default function ContactForm() {
           name="phone"
           value={formData.phone}
           onChange={handleChange}
-          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green"
+          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue"
           required
         />
       </div>
@@ -120,7 +120,7 @@ export default function ContactForm() {
           name="businessName"
           value={formData.businessName}
           onChange={handleChange}
-          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green"
+          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue"
         />
       </div>
 
@@ -137,7 +137,7 @@ export default function ContactForm() {
           name="businessType"
           value={formData.businessType}
           onChange={handleChange}
-          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green"
+          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue"
           required
         >
           <option value="">Select a business type</option>
@@ -161,7 +161,7 @@ export default function ContactForm() {
           value={formData.message}
           onChange={handleChange}
           placeholder="Tell us about your location and what you're looking for..."
-          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green resize-none"
+          className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue resize-none"
         ></textarea>
       </div>
 
@@ -169,7 +169,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={isLoading}
-        className="w-full bg-green text-black px-8 py-4 rounded-lg font-bold uppercase text-base hover:bg-gold hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+        className="w-full bg-blue text-black px-8 py-4 rounded-lg font-bold uppercase text-base hover:bg-gold hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
       >
         {isLoading ? (
           <>
@@ -183,7 +183,7 @@ export default function ContactForm() {
 
       {/* Success/Error Messages */}
       {isSuccess && (
-        <div className="bg-green/10 border border-green text-black px-4 py-3 rounded-lg">
+        <div className="bg-blue/10 border border-blue text-black px-4 py-3 rounded-lg">
           <p className="font-semibold">{message}</p>
         </div>
       )}

@@ -133,7 +133,7 @@ export default function PrivacyPage() {
                   <strong>SecurX Financial Inc.</strong>
                   <br />
                   Email:{" "}
-                  <a href="mailto:securxf@gmail.com" className="text-green hover:text-gold">
+                  <a href="mailto:securxf@gmail.com" className="text-blue hover:text-gold">
                     securxf@gmail.com
                   </a>
                   <br />

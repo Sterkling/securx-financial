@@ -17,7 +17,7 @@ export default function AboutPage() {
         {/* Hero */}
         <section className="bg-black py-20 lg:py-28">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p className="text-green text-sm font-bold uppercase tracking-wider mb-4">
+            <p className="text-blue text-sm font-bold uppercase tracking-wider mb-4">
               About SecurX Financial
             </p>
             <h1 className="text-white font-heading text-5xl lg:text-6xl uppercase mb-6">
@@ -64,7 +64,7 @@ export default function AboutPage() {
             <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12">
               {/* Service */}
               <div className="text-center">
-                <div className="bg-green w-20 h-20 rounded-full flex items-center justify-center text-4xl font-heading mx-auto mb-6 text-black">
+                <div className="bg-blue w-20 h-20 rounded-full flex items-center justify-center text-4xl font-heading mx-auto mb-6 text-black">
                   S
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-4">
@@ -77,7 +77,7 @@ export default function AboutPage() {
 
               {/* Security */}
               <div className="text-center">
-                <div className="bg-green w-20 h-20 rounded-full flex items-center justify-center text-4xl font-heading mx-auto mb-6 text-black">
+                <div className="bg-blue w-20 h-20 rounded-full flex items-center justify-center text-4xl font-heading mx-auto mb-6 text-black">
                   S
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-4">
@@ -90,7 +90,7 @@ export default function AboutPage() {
 
               {/* Partnership */}
               <div className="text-center">
-                <div className="bg-green w-20 h-20 rounded-full flex items-center justify-center text-4xl font-heading mx-auto mb-6 text-black">
+                <div className="bg-blue w-20 h-20 rounded-full flex items-center justify-center text-4xl font-heading mx-auto mb-6 text-black">
                   P
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-4">
@@ -123,14 +123,14 @@ export default function AboutPage() {
                 <h3 className="text-black font-heading text-2xl uppercase mb-2">
                   Demetri
                 </h3>
-                <p className="text-green text-sm font-semibold uppercase tracking-wide mb-4">
+                <p className="text-blue text-sm font-semibold uppercase tracking-wide mb-4">
                   Co-Founder
                 </p>
                 <p className="text-gray text-base mb-4">
                   Leading SecurX's operations and client relationships across Southwestern Ontario.
                 </p>
                 <div className="flex items-center justify-center space-x-4 text-sm">
-                  <a href="tel:+15192819923" className="flex items-center space-x-2 text-green hover:text-gold transition-colors">
+                  <a href="tel:+15192819923" className="flex items-center space-x-2 text-blue hover:text-gold transition-colors">
                     <Phone size={16} />
                     <span>519-281-9923</span>
                   </a>
@@ -146,14 +146,14 @@ export default function AboutPage() {
                 <h3 className="text-black font-heading text-2xl uppercase mb-2">
                   Eleas
                 </h3>
-                <p className="text-green text-sm font-semibold uppercase tracking-wide mb-4">
+                <p className="text-blue text-sm font-semibold uppercase tracking-wide mb-4">
                   Co-Founder
                 </p>
                 <p className="text-gray text-base mb-4">
                   Managing technical operations, installations, and support services for all SecurX locations.
                 </p>
                 <div className="flex items-center justify-center space-x-4 text-sm">
-                  <a href="tel:+15195358309" className="flex items-center space-x-2 text-green hover:text-gold transition-colors">
+                  <a href="tel:+15195358309" className="flex items-center space-x-2 text-blue hover:text-gold transition-colors">
                     <Phone size={16} />
                     <span>519-535-8309</span>
                   </a>
@@ -164,7 +164,7 @@ export default function AboutPage() {
             <div className="mt-12 text-center">
               <a
                 href="mailto:securxf@gmail.com"
-                className="inline-flex items-center space-x-2 text-green hover:text-gold transition-colors"
+                className="inline-flex items-center space-x-2 text-blue hover:text-gold transition-colors"
               >
                 <Mail size={20} />
                 <span className="text-lg font-semibold">securxf@gmail.com</span>
@@ -197,7 +197,7 @@ export default function AboutPage() {
               <div className="mt-8">
                 <a
                   href="/service-areas"
-                  className="text-green hover:text-gold font-semibold transition-colors"
+                  className="text-blue hover:text-gold font-semibold transition-colors"
                 >
                   View All Service Areas →
                 </a>

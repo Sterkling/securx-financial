@@ -17,7 +17,7 @@ export default function WhyUsPage() {
         {/* Hero */}
         <section className="bg-black py-20 lg:py-28">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p className="text-green text-sm font-bold uppercase tracking-wider mb-4">
+            <p className="text-blue text-sm font-bold uppercase tracking-wider mb-4">
               The SecurX Difference
             </p>
             <h1 className="text-white font-heading text-5xl lg:text-6xl uppercase mb-6">
@@ -42,8 +42,8 @@ export default function WhyUsPage() {
             <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Zero Cost */}
               <div className="bg-light-bg p-8 rounded-lg shadow-lg">
-                <div className="bg-green/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
-                  <DollarSign size={32} className="text-green" />
+                <div className="bg-blue/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
+                  <DollarSign size={32} className="text-blue" />
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-3">
                   Zero Upfront Cost
@@ -56,8 +56,8 @@ export default function WhyUsPage() {
 
               {/* 24/7 Support */}
               <div className="bg-light-bg p-8 rounded-lg shadow-lg">
-                <div className="bg-green/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
-                  <Clock size={32} className="text-green" />
+                <div className="bg-blue/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
+                  <Clock size={32} className="text-blue" />
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-3">
                   24/7 Ontario Support
@@ -70,8 +70,8 @@ export default function WhyUsPage() {
 
               {/* Fast Installation */}
               <div className="bg-light-bg p-8 rounded-lg shadow-lg">
-                <div className="bg-green/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
-                  <Zap size={32} className="text-green" />
+                <div className="bg-blue/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
+                  <Zap size={32} className="text-blue" />
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-3">
                   48-72 Hour Install
@@ -84,8 +84,8 @@ export default function WhyUsPage() {
 
               {/* Full Maintenance */}
               <div className="bg-light-bg p-8 rounded-lg shadow-lg">
-                <div className="bg-green/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
-                  <Wrench size={32} className="text-green" />
+                <div className="bg-blue/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
+                  <Wrench size={32} className="text-blue" />
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-3">
                   Complete Maintenance
@@ -98,8 +98,8 @@ export default function WhyUsPage() {
 
               {/* Fair Revenue */}
               <div className="bg-light-bg p-8 rounded-lg shadow-lg">
-                <div className="bg-green/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
-                  <Shield size={32} className="text-green" />
+                <div className="bg-blue/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
+                  <Shield size={32} className="text-blue" />
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-3">
                   Fair Revenue Share
@@ -112,8 +112,8 @@ export default function WhyUsPage() {
 
               {/* Partnership */}
               <div className="bg-light-bg p-8 rounded-lg shadow-lg">
-                <div className="bg-green/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
-                  <Users size={32} className="text-green" />
+                <div className="bg-blue/10 w-16 h-16 rounded-lg flex items-center justify-center mb-4">
+                  <Users size={32} className="text-blue" />
                 </div>
                 <h3 className="text-black font-heading text-2xl uppercase mb-3">
                   Long-Term Partnership
@@ -143,7 +143,7 @@ export default function WhyUsPage() {
                     <th className="px-6 py-4 text-left text-white font-heading text-lg uppercase">
                       Feature
                     </th>
-                    <th className="px-6 py-4 text-center text-green font-heading text-lg uppercase">
+                    <th className="px-6 py-4 text-center text-blue font-heading text-lg uppercase">
                       SecurX
                     </th>
                     <th className="px-6 py-4 text-center text-gray font-heading text-lg uppercase">
@@ -154,37 +154,37 @@ export default function WhyUsPage() {
                 <tbody className="divide-y divide-gray-200">
                   <tr>
                     <td className="px-6 py-4 text-black font-semibold">Upfront Cost</td>
-                    <td className="px-6 py-4 text-center text-green font-bold">$0</td>
+                    <td className="px-6 py-4 text-center text-blue font-bold">$0</td>
                     <td className="px-6 py-4 text-center text-gray">$500-$2,000</td>
                   </tr>
                   <tr className="bg-light-bg">
                     <td className="px-6 py-4 text-black font-semibold">Installation Time</td>
-                    <td className="px-6 py-4 text-center text-green font-bold">48-72 hours</td>
+                    <td className="px-6 py-4 text-center text-blue font-bold">48-72 hours</td>
                     <td className="px-6 py-4 text-center text-gray">1-2 weeks</td>
                   </tr>
                   <tr>
                     <td className="px-6 py-4 text-black font-semibold">Support Hours</td>
-                    <td className="px-6 py-4 text-center text-green font-bold">24/7 Local</td>
+                    <td className="px-6 py-4 text-center text-blue font-bold">24/7 Local</td>
                     <td className="px-6 py-4 text-center text-gray">Business Hours Only</td>
                   </tr>
                   <tr className="bg-light-bg">
                     <td className="px-6 py-4 text-black font-semibold">Cash Loading</td>
-                    <td className="px-6 py-4 text-center text-green font-bold">We Handle It</td>
+                    <td className="px-6 py-4 text-center text-blue font-bold">We Handle It</td>
                     <td className="px-6 py-4 text-center text-gray">You Handle It</td>
                   </tr>
                   <tr>
                     <td className="px-6 py-4 text-black font-semibold">Maintenance Fees</td>
-                    <td className="px-6 py-4 text-center text-green font-bold">Included</td>
+                    <td className="px-6 py-4 text-center text-blue font-bold">Included</td>
                     <td className="px-6 py-4 text-center text-gray">$50-$100/month</td>
                   </tr>
                   <tr className="bg-light-bg">
                     <td className="px-6 py-4 text-black font-semibold">Revenue Share</td>
-                    <td className="px-6 py-4 text-center text-green font-bold">50%</td>
+                    <td className="px-6 py-4 text-center text-blue font-bold">50%</td>
                     <td className="px-6 py-4 text-center text-gray">30-40%</td>
                   </tr>
                   <tr>
                     <td className="px-6 py-4 text-black font-semibold">Contract Terms</td>
-                    <td className="px-6 py-4 text-center text-green font-bold">Flexible</td>
+                    <td className="px-6 py-4 text-center text-blue font-bold">Flexible</td>
                     <td className="px-6 py-4 text-center text-gray">2-3 Year Lock-in</td>
                   </tr>
                 </tbody>
@@ -204,19 +204,19 @@ export default function WhyUsPage() {
 
             <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8">
               <div>
-                <div className="text-5xl font-heading text-green mb-2">150+</div>
+                <div className="text-5xl font-heading text-blue mb-2">150+</div>
                 <div className="text-gray text-sm uppercase">ATMs Installed</div>
               </div>
               <div>
-                <div className="text-5xl font-heading text-green mb-2">8+</div>
+                <div className="text-5xl font-heading text-blue mb-2">8+</div>
                 <div className="text-gray text-sm uppercase">Years in Business</div>
               </div>
               <div>
-                <div className="text-5xl font-heading text-green mb-2">7</div>
+                <div className="text-5xl font-heading text-blue mb-2">7</div>
                 <div className="text-gray text-sm uppercase">Cities Served</div>
               </div>
               <div>
-                <div className="text-5xl font-heading text-green mb-2">95%</div>
+                <div className="text-5xl font-heading text-blue mb-2">95%</div>
                 <div className="text-gray text-sm uppercase">Client Satisfaction</div>
               </div>
             </div>

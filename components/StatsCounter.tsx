@@ -78,7 +78,7 @@ function StatItem({ stat, shouldAnimate }: StatItemProps) {
 
   return (
     <div className="text-center">
-      <div className="text-4xl lg:text-5xl font-heading text-green mb-2">
+      <div className="text-4xl lg:text-5xl font-heading text-blue mb-2">
         {stat.prefix}
         {count}
         {stat.suffix}

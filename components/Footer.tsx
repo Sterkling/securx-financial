@@ -27,7 +27,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="mb-4">
-              <span className="text-green text-3xl font-heading tracking-tight">
+              <span className="text-blue text-3xl font-heading tracking-tight">
                 SECURX
               </span>
               <br />
@@ -47,32 +47,32 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/services" className="text-gray hover:text-green transition-colors">
+                <Link href="/services" className="text-gray hover:text-blue transition-colors">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray hover:text-green transition-colors">
+                <Link href="/about" className="text-gray hover:text-blue transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/why-us" className="text-gray hover:text-green transition-colors">
+                <Link href="/why-us" className="text-gray hover:text-blue transition-colors">
                   Why Choose Us
                 </Link>
               </li>
               <li>
-                <Link href="/testimonials" className="text-gray hover:text-green transition-colors">
+                <Link href="/testimonials" className="text-gray hover:text-blue transition-colors">
                   Testimonials
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="text-gray hover:text-green transition-colors">
+                <Link href="/faq" className="text-gray hover:text-blue transition-colors">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray hover:text-green transition-colors">
+                <Link href="/contact" className="text-gray hover:text-blue transition-colors">
                   Contact
                 </Link>
               </li>
@@ -93,7 +93,7 @@ export default function Footer() {
             </ul>
             <Link
               href="/service-areas"
-              className="text-green hover:text-gold transition-colors text-sm font-semibold mt-3 inline-block"
+              className="text-blue hover:text-gold transition-colors text-sm font-semibold mt-3 inline-block"
             >
               View All Areas →
             </Link>
@@ -106,7 +106,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
-                <Phone size={16} className="text-green mt-1" />
+                <Phone size={16} className="text-blue mt-1" />
                 <div>
                   <a href="tel:+15192819923" className="text-gray hover:text-white transition-colors block">
                     Demetri: 519-281-9923
@@ -117,13 +117,13 @@ export default function Footer() {
                 </div>
               </li>
               <li className="flex items-start space-x-2">
-                <Mail size={16} className="text-green mt-1" />
+                <Mail size={16} className="text-blue mt-1" />
                 <a href="mailto:securxf@gmail.com" className="text-gray hover:text-white transition-colors">
                   securxf@gmail.com
                 </a>
               </li>
               <li className="flex items-start space-x-2">
-                <MapPin size={16} className="text-green mt-1" />
+                <MapPin size={16} className="text-blue mt-1" />
                 <span className="text-gray">London, ON</span>
               </li>
             </ul>
@@ -140,7 +140,7 @@ export default function Footer() {
               <Link
                 key={industry.href}
                 href={industry.href}
-                className="text-gray hover:text-green transition-colors text-sm"
+                className="text-gray hover:text-blue transition-colors text-sm"
               >
                 {industry.name}
               </Link>

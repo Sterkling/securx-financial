@@ -18,7 +18,7 @@ export default function BarsATMPage() {
         {/* Hero */}
         <section className="bg-black py-20 lg:py-28">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <p className="text-green text-sm font-bold uppercase tracking-wider mb-4">
+            <p className="text-blue text-sm font-bold uppercase tracking-wider mb-4">
               ATMs for Bars & Nightclubs
             </p>
             <h1 className="text-white font-heading text-5xl lg:text-6xl uppercase mb-6">
@@ -31,13 +31,13 @@ export default function BarsATMPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="/contact"
-                className="bg-green text-black px-8 py-4 rounded-lg font-bold uppercase text-base hover:bg-gold hover:text-white transition-colors text-center"
+                className="bg-blue text-black px-8 py-4 rounded-lg font-bold uppercase text-base hover:bg-gold hover:text-white transition-colors text-center"
               >
                 Get a Free ATM
               </a>
               <a
                 href="#calculator"
-                className="bg-transparent border-2 border-green text-green px-8 py-4 rounded-lg font-bold uppercase text-base hover:bg-green hover:text-black transition-colors text-center"
+                className="bg-transparent border-2 border-blue text-blue px-8 py-4 rounded-lg font-bold uppercase text-base hover:bg-blue hover:text-black transition-colors text-center"
               >
                 Calculate Your Revenue
               </a>
@@ -85,29 +85,29 @@ export default function BarsATMPage() {
               </div>
 
               {/* With ATM */}
-              <div className="bg-green/5 p-8 rounded-lg border-2 border-green">
+              <div className="bg-blue/5 p-8 rounded-lg border-2 border-blue">
                 <h3 className="text-black font-heading text-2xl uppercase mb-6 text-center">
                   With a SecurX ATM
                 </h3>
                 <ul className="space-y-4 text-gray">
                   <li className="flex items-start">
-                    <span className="text-green mr-3 text-xl">✓</span>
+                    <span className="text-blue mr-3 text-xl">✓</span>
                     <span>Customers stay and keep buying drinks</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-3 text-xl">✓</span>
+                    <span className="text-blue mr-3 text-xl">✓</span>
                     <span>Increased revenue — cash customers spend more</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-3 text-xl">✓</span>
+                    <span className="text-blue mr-3 text-xl">✓</span>
                     <span>Reduced credit card fees (save thousands annually)</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-3 text-xl">✓</span>
+                    <span className="text-blue mr-3 text-xl">✓</span>
                     <span>Faster bar service with cash transactions</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-3 text-xl">✓</span>
+                    <span className="text-blue mr-3 text-xl">✓</span>
                     <span>Earn passive ATM revenue (avg. $500-$1,200/month)</span>
                   </li>
                 </ul>
@@ -128,7 +128,7 @@ export default function BarsATMPage() {
 
             <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <div className="text-green text-4xl font-heading mb-4">01</div>
+                <div className="text-blue text-4xl font-heading mb-4">01</div>
                 <h3 className="text-black font-heading text-xl uppercase mb-3">
                   Peak Hour Ready
                 </h3>
@@ -139,7 +139,7 @@ export default function BarsATMPage() {
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <div className="text-green text-4xl font-heading mb-4">02</div>
+                <div className="text-blue text-4xl font-heading mb-4">02</div>
                 <h3 className="text-black font-heading text-xl uppercase mb-3">
                   Zero Maintenance
                 </h3>
@@ -150,7 +150,7 @@ export default function BarsATMPage() {
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-lg">
-                <div className="text-green text-4xl font-heading mb-4">03</div>
+                <div className="text-blue text-4xl font-heading mb-4">03</div>
                 <h3 className="text-black font-heading text-xl uppercase mb-3">
                   Late-Night Support
                 </h3>
@@ -182,7 +182,7 @@ export default function BarsATMPage() {
         <section className="bg-light-bg py-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-white p-8 lg:p-12 rounded-lg shadow-xl">
-              <div className="text-green text-6xl mb-4">"</div>
+              <div className="text-blue text-6xl mb-4">"</div>
               <p className="text-gray text-xl lg:text-2xl leading-relaxed mb-8">
                 The ATM has been a game-changer for our bar. Customers aren't leaving to find cash
                 anymore, and we're earning an extra $800-$900 per month. Best part? We don't do
@@ -190,7 +190,7 @@ export default function BarsATMPage() {
               </p>
               <div className="border-t border-gray-300 pt-6">
                 <p className="text-black font-semibold text-xl">Mike T.</p>
-                <p className="text-green text-base font-semibold">Bar Owner, London</p>
+                <p className="text-blue text-base font-semibold">Bar Owner, London</p>
               </div>
             </div>
           </div>

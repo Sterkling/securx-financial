@@ -127,7 +127,7 @@ export default function AdminPage() {
                 id="username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green"
+                className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue"
                 required
               />
             </div>
@@ -141,7 +141,7 @@ export default function AdminPage() {
                 id="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green"
+                className="w-full bg-white border border-gray-300 text-black px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue"
                 required
               />
             </div>
@@ -155,7 +155,7 @@ export default function AdminPage() {
             <button
               type="submit"
               disabled={isLoggingIn}
-              className="w-full bg-green text-black px-6 py-3 rounded-lg font-bold uppercase hover:bg-gold hover:text-white transition-colors disabled:opacity-50 flex items-center justify-center"
+              className="w-full bg-blue text-black px-6 py-3 rounded-lg font-bold uppercase hover:bg-gold hover:text-white transition-colors disabled:opacity-50 flex items-center justify-center"
             >
               {isLoggingIn ? (
                 <>
@@ -178,12 +178,12 @@ export default function AdminPage() {
       {/* Header */}
       <header className="bg-black text-white py-6 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1 className="text-green font-heading text-3xl uppercase">
+          <h1 className="text-blue font-heading text-3xl uppercase">
             SecurX Admin
           </h1>
           <button
             onClick={handleLogout}
-            className="flex items-center space-x-2 text-white hover:text-green transition-colors"
+            className="flex items-center space-x-2 text-white hover:text-blue transition-colors"
           >
             <LogOut size={20} />
             <span>Logout</span>
@@ -200,7 +200,7 @@ export default function AdminPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {stats.map((stat) => (
               <div key={stat.form_type} className="bg-white p-6 rounded-lg shadow">
-                <div className="text-3xl font-heading text-green mb-2">
+                <div className="text-3xl font-heading text-blue mb-2">
                   {stat.count}
                 </div>
                 <div className="text-gray text-sm uppercase">{stat.form_type}</div>
@@ -219,7 +219,7 @@ export default function AdminPage() {
               id="filter"
               value={filterType}
               onChange={(e) => handleFilterChange(e.target.value)}
-              className="bg-white border border-gray-300 text-black px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-green"
+              className="bg-white border border-gray-300 text-black px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue"
             >
               <option value="all">All Submissions</option>
               <option value="contact">Contact Forms</option>
@@ -228,7 +228,7 @@ export default function AdminPage() {
 
           <button
             onClick={exportCSV}
-            className="flex items-center space-x-2 bg-green text-black px-6 py-3 rounded-lg font-bold hover:bg-gold hover:text-white transition-colors"
+            className="flex items-center space-x-2 bg-blue text-black px-6 py-3 rounded-lg font-bold hover:bg-gold hover:text-white transition-colors"
           >
             <Download size={20} />
             <span>Export CSV</span>
@@ -240,7 +240,7 @@ export default function AdminPage() {
           <div className="overflow-x-auto">
             {isLoading ? (
               <div className="flex items-center justify-center py-12">
-                <Loader2 className="animate-spin text-green" size={32} />
+                <Loader2 className="animate-spin text-blue" size={32} />
               </div>
             ) : submissions.length === 0 ? (
               <div className="text-center py-12 text-gray">
@@ -280,7 +280,7 @@ export default function AdminPage() {
                         {new Date(submission.created_at).toLocaleDateString()}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm">
-                        <span className="px-2 py-1 bg-green/10 text-green rounded text-xs font-semibold">
+                        <span className="px-2 py-1 bg-blue/10 text-blue rounded text-xs font-semibold">
                           {submission.form_type}
                         </span>
                       </td>

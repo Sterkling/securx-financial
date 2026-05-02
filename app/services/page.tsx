@@ -19,7 +19,7 @@ export default function ServicesPage() {
         {/* Hero Section */}
         <section className="bg-black py-20 lg:py-28">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p className="text-green text-sm font-bold uppercase tracking-wider mb-4">
+            <p className="text-blue text-sm font-bold uppercase tracking-wider mb-4">
               Complete ATM Solutions
             </p>
             <h1 className="text-white font-heading text-5xl lg:text-6xl uppercase mb-6">
@@ -88,8 +88,8 @@ export default function ServicesPage() {
 
             <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Free Placement */}
-              <div className="bg-white p-8 rounded-lg shadow-lg border-2 border-green">
-                <div className="bg-green text-black px-4 py-2 rounded-lg inline-block text-sm font-bold uppercase mb-4">
+              <div className="bg-white p-8 rounded-lg shadow-lg border-2 border-blue">
+                <div className="bg-blue text-black px-4 py-2 rounded-lg inline-block text-sm font-bold uppercase mb-4">
                   Most Popular
                 </div>
                 <h3 className="text-black font-heading text-3xl uppercase mb-4">
@@ -100,29 +100,29 @@ export default function ServicesPage() {
                 </p>
                 <ul className="space-y-3 text-gray text-sm mb-8">
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     Zero upfront cost
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     We handle all maintenance
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     We load the cash
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     50% revenue share
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     24/7 support included
                   </li>
                 </ul>
                 <a
                   href="/contact"
-                  className="block text-center bg-green text-black px-6 py-3 rounded-lg font-bold uppercase text-sm hover:bg-gold hover:text-white transition-colors"
+                  className="block text-center bg-blue text-black px-6 py-3 rounded-lg font-bold uppercase text-sm hover:bg-gold hover:text-white transition-colors"
                 >
                   Get Started
                 </a>
@@ -138,23 +138,23 @@ export default function ServicesPage() {
                 </p>
                 <ul className="space-y-3 text-gray text-sm mb-8">
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     Low monthly rental fee
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     Keep 100% of revenue
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     Maintenance included
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     You load the cash
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     Flexible terms
                   </li>
                 </ul>
@@ -176,23 +176,23 @@ export default function ServicesPage() {
                 </p>
                 <ul className="space-y-3 text-gray text-sm mb-8">
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     One-time purchase
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     Keep 100% of revenue
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     Full ownership
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     Support packages available
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-2">✓</span>
+                    <span className="text-blue mr-2">✓</span>
                     Best long-term ROI
                   </li>
                 </ul>
@@ -263,29 +263,29 @@ export default function ServicesPage() {
               </div>
 
               {/* With ATM */}
-              <div className="bg-green/5 p-8 rounded-lg shadow-lg border-2 border-green">
+              <div className="bg-blue/5 p-8 rounded-lg shadow-lg border-2 border-blue">
                 <h3 className="text-black font-heading text-2xl uppercase mb-6 text-center">
                   With a SecurX ATM
                 </h3>
                 <ul className="space-y-4 text-gray">
                   <li className="flex items-start">
-                    <span className="text-green mr-3 text-xl">✓</span>
+                    <span className="text-blue mr-3 text-xl">✓</span>
                     <span>Customers stay and spend more</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-3 text-xl">✓</span>
+                    <span className="text-blue mr-3 text-xl">✓</span>
                     <span>Increased foot traffic and sales</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-3 text-xl">✓</span>
+                    <span className="text-blue mr-3 text-xl">✓</span>
                     <span>Reduced credit card fees</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-3 text-xl">✓</span>
+                    <span className="text-blue mr-3 text-xl">✓</span>
                     <span>Earn passive income monthly</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green mr-3 text-xl">✓</span>
+                    <span className="text-blue mr-3 text-xl">✓</span>
                     <span>Customers linger longer</span>
                   </li>
                 </ul>

@@ -69,7 +69,7 @@ export default function TestimonialsPage() {
         {/* Hero */}
         <section className="bg-black py-20 lg:py-28">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p className="text-green text-sm font-bold uppercase tracking-wider mb-4">
+            <p className="text-blue text-sm font-bold uppercase tracking-wider mb-4">
               Client Success Stories
             </p>
             <h1 className="text-white font-heading text-5xl lg:text-6xl uppercase mb-6">
@@ -104,7 +104,7 @@ export default function TestimonialsPage() {
                   key={index}
                   className="bg-light-bg p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
                 >
-                  <div className="text-green text-5xl mb-4">"</div>
+                  <div className="text-blue text-5xl mb-4">"</div>
                   <p className="text-gray text-base leading-relaxed mb-6">
                     {testimonial.quote}
                   </p>
@@ -112,7 +112,7 @@ export default function TestimonialsPage() {
                     <p className="text-black font-semibold text-lg">
                       {testimonial.author}
                     </p>
-                    <p className="text-green text-sm font-semibold">
+                    <p className="text-blue text-sm font-semibold">
                       {testimonial.business}
                     </p>
                     <p className="text-gray text-sm">{testimonial.location}</p>

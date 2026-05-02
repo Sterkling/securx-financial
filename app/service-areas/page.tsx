@@ -68,7 +68,7 @@ export default function ServiceAreasPage() {
         {/* Hero */}
         <section className="bg-black py-20 lg:py-28">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p className="text-green text-sm font-bold uppercase tracking-wider mb-4">
+            <p className="text-blue text-sm font-bold uppercase tracking-wider mb-4">
               Where We Serve
             </p>
             <h1 className="text-white font-heading text-5xl lg:text-6xl uppercase mb-6">
@@ -97,8 +97,8 @@ export default function ServiceAreasPage() {
                   className="bg-light-bg p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-gray-200"
                 >
                   <div className="flex items-center space-x-3 mb-4">
-                    <div className="bg-green/10 p-2 rounded-lg">
-                      <MapPin className="text-green" size={24} />
+                    <div className="bg-blue/10 p-2 rounded-lg">
+                      <MapPin className="text-blue" size={24} />
                     </div>
                     <div>
                       <h3 className="text-black font-heading text-2xl uppercase">
@@ -113,7 +113,7 @@ export default function ServiceAreasPage() {
                   </p>
 
                   <div className="pt-4 border-t border-gray-300">
-                    <p className="text-green text-2xl font-heading">
+                    <p className="text-blue text-2xl font-heading">
                       {area.businesses}
                     </p>
                     <p className="text-gray text-sm">Businesses Served</p>
@@ -135,7 +135,7 @@ export default function ServiceAreasPage() {
 
             <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12">
               <div className="text-center">
-                <div className="bg-green w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6 text-black">
+                <div className="bg-blue w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6 text-black">
                   1
                 </div>
                 <h3 className="text-black font-heading text-xl uppercase mb-4">
@@ -147,7 +147,7 @@ export default function ServiceAreasPage() {
               </div>
 
               <div className="text-center">
-                <div className="bg-green w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6 text-black">
+                <div className="bg-blue w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6 text-black">
                   2
                 </div>
                 <h3 className="text-black font-heading text-xl uppercase mb-4">
@@ -159,7 +159,7 @@ export default function ServiceAreasPage() {
               </div>
 
               <div className="text-center">
-                <div className="bg-green w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6 text-black">
+                <div className="bg-blue w-16 h-16 rounded-full flex items-center justify-center text-3xl font-heading mx-auto mb-6 text-black">
                   3
                 </div>
                 <h3 className="text-black font-heading text-xl uppercase mb-4">
@@ -203,7 +203,7 @@ export default function ServiceAreasPage() {
             </p>
             <a
               href="/contact"
-              className="inline-block bg-green text-black px-8 py-4 rounded-lg font-bold uppercase text-base hover:bg-gold hover:text-white transition-colors"
+              className="inline-block bg-blue text-black px-8 py-4 rounded-lg font-bold uppercase text-base hover:bg-gold hover:text-white transition-colors"
             >
               Contact Us
             </a>

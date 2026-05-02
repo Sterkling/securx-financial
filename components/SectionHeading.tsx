@@ -14,7 +14,7 @@ export default function SectionHeading({
   return (
     <div className={centered ? "text-center" : ""}>
       {eyebrow && (
-        <p className="text-green text-sm font-bold uppercase tracking-wider mb-2">
+        <p className="text-blue text-sm font-bold uppercase tracking-wider mb-2">
           {eyebrow}
         </p>
       )}
