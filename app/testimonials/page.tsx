@@ -43,7 +43,7 @@ export default function TestimonialsPage() {
       quote:
         "SecurX handles everything — installation, cash loading, maintenance. We just collect the revenue check every month. It's passive income at its best.",
       author: "Lisa M.",
-      business: "Cannabis Dispensary",
+      business: "Bowling Alley",
       location: "Hamilton, ON",
     },
     {

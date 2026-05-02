@@ -6,7 +6,6 @@ import { Loader2 } from "lucide-react";
 
 const businessTypes = [
   "Bar / Nightclub",
-  "Cannabis Dispensary",
   "Convenience Store",
   "Restaurant",
   "Gas Station",

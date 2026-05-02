@@ -21,7 +21,7 @@ export default function FAQPage() {
     },
     {
       question: "What type of businesses benefit from an ATM?",
-      answer: "Any cash-friendly business benefits — bars, restaurants, convenience stores, gas stations, cannabis dispensaries, event venues, bowling alleys, and more. High foot traffic locations see the best results.",
+      answer: "Any cash-friendly business benefits — bars, restaurants, convenience stores, gas stations, event venues, bowling alleys, and more. High foot traffic locations see the best results.",
     },
     {
       question: "Do I need a phone line or internet connection?",
@@ -32,7 +32,7 @@ export default function FAQPage() {
   const costsFAQs = [
     {
       question: "How much revenue can I expect?",
-      answer: "Revenue varies by location and foot traffic. On average, our clients earn $300-$800 per month. High-traffic locations like bars and dispensaries often exceed $1,000/month. Use our Revenue Calculator on the Services page for a custom estimate.",
+      answer: "Revenue varies by location and foot traffic. On average, our clients earn $300-$800 per month. High-traffic locations like bars and convenience stores often exceed $1,000/month. Use our Revenue Calculator on the Services page for a custom estimate.",
     },
     {
       question: "How does revenue sharing work?",

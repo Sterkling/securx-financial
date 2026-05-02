@@ -28,7 +28,7 @@ securx-financial/
 │   ├── contact/           # Contact form
 │   ├── privacy/           # Privacy policy
 │   ├── admin/             # Admin dashboard
-│   ├── industries/        # Industry landing pages (bars, dispensaries, etc.)
+│   ├── industries/        # Industry landing pages (bars, restaurants, etc.)
 │   └── api/               # API routes (forms, admin)
 ├── components/            # Reusable components
 ├── hooks/                 # Custom React hooks
@@ -95,7 +95,7 @@ npm start
 - **FAQ:** Accordion-style Q&A organized by category
 - **Testimonials:** Client success stories and photo gallery
 - **Contact:** Form with validation, contact info, map
-- **Industry Pages:** Tailored landing pages for bars, dispensaries, convenience stores, restaurants, gas stations
+- **Industry Pages:** Tailored landing pages for bars, convenience stores, restaurants, gas stations
 - **Privacy Policy:** Standard privacy policy page
 - **Admin Dashboard:** View and export form submissions with JWT authentication
 
@@ -179,7 +179,7 @@ The following need to be provided by the client:
 
 ## Remaining Development
 
-- [ ] Complete remaining 4 industry landing pages (dispensaries, convenience stores, restaurants, gas stations)
+- [ ] Complete remaining 3 industry landing pages (convenience stores, restaurants, gas stations)
 - [ ] Add Framer Motion scroll animations
 - [ ] Add Open Graph images for social sharing
 - [ ] Add favicon/app icons

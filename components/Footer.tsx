@@ -14,7 +14,6 @@ export default function Footer() {
 
   const industries = [
     { name: "Bars & Nightclubs", href: "/industries/bars" },
-    { name: "Cannabis Dispensaries", href: "/industries/dispensaries" },
     { name: "Convenience Stores", href: "/industries/convenience-stores" },
     { name: "Restaurants", href: "/industries/restaurants" },
     { name: "Gas Stations", href: "/industries/gas-stations" },

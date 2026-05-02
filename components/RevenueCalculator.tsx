@@ -5,7 +5,6 @@ import { Calculator } from "lucide-react";
 
 const businessTypes = [
   { value: "bar", label: "Bar / Nightclub", avgTransactions: 25 },
-  { value: "dispensary", label: "Cannabis Dispensary", avgTransactions: 30 },
   { value: "convenience", label: "Convenience Store", avgTransactions: 20 },
   { value: "restaurant", label: "Restaurant", avgTransactions: 15 },
   { value: "gas-station", label: "Gas Station", avgTransactions: 22 },

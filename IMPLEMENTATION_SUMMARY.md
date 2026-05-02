@@ -74,10 +74,9 @@
 
 ### ⏳ Partially Complete
 
-- **Industry Pages** (4 remaining):
+- **Industry Pages** (3 remaining):
   - Template created for bars
   - Need to copy/customize for:
-    - `/industries/dispensaries`
     - `/industries/convenience-stores`
     - `/industries/restaurants`
     - `/industries/gas-stations`
@@ -130,10 +129,9 @@
 
 ## What's Remaining
 
-### 1. Industry Landing Pages (4 pages, ~30 min)
+### 1. Industry Landing Pages (3 pages, ~30 min)
 
 Copy and customize the bars template for:
-- Dispensaries
 - Convenience Stores
 - Restaurants
 - Gas Stations
@@ -252,7 +250,6 @@ securx-financial/
 │   ├── admin/page.tsx            # Admin Dashboard
 │   ├── industries/
 │   │   ├── bars/page.tsx         # ✅ Complete
-│   │   ├── dispensaries/         # ⏳ TODO
 │   │   ├── convenience-stores/   # ⏳ TODO
 │   │   ├── restaurants/          # ⏳ TODO
 │   │   └── gas-stations/         # ⏳ TODO
