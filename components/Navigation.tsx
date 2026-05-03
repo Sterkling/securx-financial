@@ -22,10 +22,10 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 focus:outline-none">
             <div className="flex flex-col leading-none">
-              <span className="text-blue text-3xl sm:text-4xl lg:text-5xl font-heading tracking-tight">
+              <span className="text-blue text-5xl sm:text-4xl lg:text-5xl font-heading tracking-tight">
                 SECURX
               </span>
-              <span className="text-white text-xs sm:text-sm font-heading tracking-wider">
+              <span className="text-white text-sm sm:text-sm font-heading tracking-wider">
                 FINANCIAL
               </span>
             </div>

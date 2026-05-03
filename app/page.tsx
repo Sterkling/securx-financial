@@ -157,8 +157,8 @@ export default function Home() {
               />
               <ServiceCard
                 icon={Wrench}
-                title="Maintenance & Repairs"
-                description="Complete maintenance and repair services. Fast response times to keep your ATM running."
+                title="Maintenance, Repairs & Upgrades"
+                description="Complete maintenance and repair services. Equipment upgrades or replacements when needed. Always using current technology."
               />
               <ServiceCard
                 icon={Clock}
@@ -174,11 +174,6 @@ export default function Home() {
                 icon={Award}
                 title="Monthly Reporting"
                 description="Detailed transaction reports and earnings statements delivered monthly."
-              />
-              <ServiceCard
-                icon={TrendingUp}
-                title="Machine Upgrades"
-                description="Equipment upgrades or replacements when needed. Always using current technology."
               />
             </div>
           </div>
