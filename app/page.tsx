@@ -19,7 +19,6 @@ import {
   Store,
   Fuel,
   UtensilsCrossed,
-  Leaf,
   Hotel,
   Calendar,
   ShoppingBag,
@@ -308,15 +307,6 @@ export default function Home() {
                 </div>
                 <h3 className="text-black font-heading text-lg uppercase">
                   Restaurants
-                </h3>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
-                <div className="bg-blue/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Leaf className="text-blue" size={28} />
-                </div>
-                <h3 className="text-black font-heading text-lg uppercase">
-                  Cannabis Dispensaries
                 </h3>
               </div>
 

@@ -9,7 +9,6 @@ const businessTypes = [
   "Convenience Store",
   "Restaurant",
   "Gas Station",
-  "Cannabis Dispensary",
   "Hotel / Motel",
   "Event Venue",
   "Retail Store",
