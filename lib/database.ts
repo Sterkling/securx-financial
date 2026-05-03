@@ -7,7 +7,9 @@ let db: Database.Database | null = null;
 function getDb() {
   if (db) return db;
 
-  const dbDir = path.join(process.cwd(), "data");
+  const dbDir = process.env.NODE_ENV === "production"
+    ? "/data"
+    : path.join(process.cwd(), "data");
   const dbPath = path.join(dbDir, "securx.db");
 
   // Ensure data directory exists
