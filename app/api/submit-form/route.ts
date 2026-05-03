@@ -11,6 +11,8 @@ export async function POST(request: NextRequest) {
       phone,
       businessName,
       businessType,
+      city,
+      hasCurrentAtm,
       message,
     } = body;
 
@@ -34,6 +36,8 @@ export async function POST(request: NextRequest) {
       phone,
       businessName,
       businessType,
+      city,
+      hasCurrentAtm,
       message,
       ipAddress,
       userAgent,

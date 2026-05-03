@@ -29,6 +29,8 @@ function getDb() {
       phone TEXT,
       business_name TEXT,
       business_type TEXT,
+      city TEXT,
+      has_current_atm TEXT,
       message TEXT,
       ip_address TEXT,
       user_agent TEXT,
@@ -54,6 +56,8 @@ export function insertSubmission(data: {
   phone?: string;
   businessName?: string;
   businessType?: string;
+  city?: string;
+  hasCurrentAtm?: string;
   message?: string;
   ipAddress?: string;
   userAgent?: string;
@@ -61,8 +65,8 @@ export function insertSubmission(data: {
   const database = getDb();
   const stmt = database.prepare(`
     INSERT INTO submissions (
-      form_type, name, email, phone, business_name, business_type, message, ip_address, user_agent
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+      form_type, name, email, phone, business_name, business_type, city, has_current_atm, message, ip_address, user_agent
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
 
   return stmt.run(
@@ -72,6 +76,8 @@ export function insertSubmission(data: {
     data.phone || null,
     data.businessName || null,
     data.businessType || null,
+    data.city || null,
+    data.hasCurrentAtm || null,
     data.message || null,
     data.ipAddress || null,
     data.userAgent || null

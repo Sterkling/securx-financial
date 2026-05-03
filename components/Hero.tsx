@@ -12,19 +12,19 @@ export default function Hero() {
         <div className="max-w-4xl">
           {/* Eyebrow */}
           <p className="text-blue text-base font-bold uppercase tracking-wider mb-4">
-            FREE ATM PLACEMENT FOR YOUR BUSINESS
+            Southwestern Ontario's ATM Partner
           </p>
 
           {/* Main headline */}
           <h1 className="text-white font-heading text-5xl sm:text-6xl lg:text-7xl uppercase leading-[0.9] mb-6">
-            BOOST REVENUE WITH
+            Free ATM Placement
             <br />
-            ZERO UPFRONT COST
+            For Your Business
           </h1>
 
           {/* Subheadline */}
           <p className="text-gray text-xl lg:text-2xl mb-8 max-w-2xl leading-relaxed">
-            Fast ATM installation, cash loading, and 24/7 support across Southwestern Ontario. Start earning passive income today.
+            SecurX Financials provides full-service ATM placement, cash loading, maintenance, and support for businesses across Southwestern Ontario. We handle the machine, the service, and the cash loading so the business owner can focus on running their business.
           </p>
 
           {/* CTA Buttons */}
@@ -36,10 +36,10 @@ export default function Hero() {
               Get a Free ATM
             </Link>
             <Link
-              href="/services#calculator"
+              href="#contact"
               className="bg-transparent border-2 border-blue text-blue px-8 py-4 rounded-lg font-bold uppercase text-base hover:bg-blue hover:text-black transition-colors text-center"
             >
-              Calculate Your Revenue
+              Contact Us Today
             </Link>
           </div>
 
