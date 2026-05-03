@@ -2,15 +2,15 @@
 
 ## One-Time Setup: Create Volume and Scale to 1 Machine
 
-Before deploying the updated configuration, run these commands:
+The deployment failed because volumes must be created before deploying with mounts. Follow these steps to fix it:
 
-### 1. Create the persistent volume
+### 1. First, scale down to 1 machine (using current deployed version)
 
 ```bash
-fly volumes create securx_data --region yyz --size 1
+fly scale count 1 --region yyz
 ```
 
-This creates a 1GB persistent volume in the Toronto (yyz) region for your SQLite database.
+This removes the second machine so we only need to create 1 volume.
 
 ### 2. (Optional) Back up existing data
 
@@ -20,27 +20,31 @@ If you have existing submission data you want to preserve, back it up first:
 fly ssh console -C "cat /app/data/securx.db" > securx-backup.db
 ```
 
-After deploying, you can restore it:
+### 3. Create the persistent volume
 
 ```bash
-fly ssh console -C "cat > /data/securx.db" < securx-backup.db
+fly volumes create securx_data --region yyz --size 1
 ```
 
-### 3. Deploy the updated configuration
+This creates a 1GB persistent volume in the Toronto (yyz) region for your SQLite database.
 
-Either push to main (triggers GitHub Actions) or deploy manually:
+### 4. Deploy the updated configuration
+
+Now deploy manually (since GitHub Actions already ran):
 
 ```bash
 fly deploy
 ```
 
-### 4. Scale down to 1 machine
+Or trigger GitHub Actions by pushing a commit.
+
+### 5. (Optional) Restore backed up data
+
+If you backed up data in step 2, restore it:
 
 ```bash
-fly scale count 1 --region yyz
+fly ssh console -C "cat > /data/securx.db" < securx-backup.db
 ```
-
-This removes the redundant second machine and ensures only 1 machine runs going forward.
 
 ## Verify the Setup
 
