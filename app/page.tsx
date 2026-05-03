@@ -268,7 +268,7 @@ export default function Home() {
               centered
             />
 
-            <div className="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            <div className="mt-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-lg text-center hover:shadow-lg transition-shadow">
                 <div className="bg-blue/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Beer className="text-blue" size={28} />
